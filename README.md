@@ -1,4 +1,6 @@
 # Draw-a-heart-shape
+*Note, you may download the entire code (turtle.py) in the 'master' branch.
+
 Turtle is a cute and amzing library in python. Let's draw a heart shape with turtle. This will be my very first project here.
 
 Drawing a heart shape is not something new. There are lots of exsiting code for referring (e.g. [geeks for geeks](https://www.geeksforgeeks.org/draw-heart-using-turtle-graphics-in-python)) However, when checking such example codes, my concern is that how did they get such precise parameters? It's not very intuitive. So this project is a simple version of deriving the parameters:
