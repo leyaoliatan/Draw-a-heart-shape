@@ -14,54 +14,7 @@ Drawing a heart shape is not something new. There are lots of exsiting code for 
 - Now repeat the steps for the right-hand side with merely changing the directions.
 <img width="558" alt="image" src="https://user-images.githubusercontent.com/99280254/161425884-726fd6d4-68db-4255-b067-119557105ef1.png">
 
-The detailed code is shown as following:
-
-      import turtle
-      #setawindow
-      wn=turtle.Screen()
-      wn.bgcolor("black")
-      wn.title("shape@kaimifami")
-      wn.screensize(800,600)
-
-      #setapen
-      pen=turtle.Turtle()
-      pen.color("pink")
-      pen.shape("turtle")#画笔形状设成了非常可爱的海龟hh
-      pen.fillcolor("pink")
-      turtle.speed(10)
-
-      #definefunctions
-      defcurve():
-      foriinrange(180):
-      pen.right(1)
-      pen.forward(2)
-
-      defheart():
-      pen.left(135)
-      pen.forward(720/3.14)
-      curve()
-      pen.left(90)
-      curve()
-      pen.forward(720/3.14)
-
-      deftext():
-      pen.penup()
-      pen.setpos(-50,50)
-      pen.pendown()
-      pen.color("white")
-      pen.write(input("enterthewords:"),font=("Verdana",30,"bold"))
-
-      #painting!
-      pen.begin_fill()
-      pen.penup()
-      pen.setpos(0,-150)
-      pen.pendown()
-      heart()
-      pen.end_fill()
-      text()
-      turtle.done()
-
-okk！We have finished it!
+The detailed code is shown in turtle.py
 
 p.s.
-[Click here for Chinese version](https://mp.weixin.qq.com/s/LvtHLaN31_LEnBhbL5tA1g)
+[Click here to check the Chinese version](https://mp.weixin.qq.com/s/LvtHLaN31_LEnBhbL5tA1g)
